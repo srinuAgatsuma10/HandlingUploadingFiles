@@ -1,0 +1,7 @@
+Selenium is an open-source automation testing framework used for web applications.
+It allows testers to automate browser actions using various programming languages such as Java, Python, and C#.
+Selenium consists of several components:
+1. Selenium WebDriver - Directly interacts with the browser and automates actions.
+2. Selenium IDE - A record-and-playback tool for creating test scripts.
+3. Selenium Grid - Enables parallel test execution on multiple machines.
+Selenium supports multiple browsers like Chrome, Firefox, Edge, and Safari, making it a powerful tool for cross-browser testing.

@@ -1,0 +1,8 @@
+Cucumber is a popular Behavior Driven Development (BDD) testing framework that allows writing test cases in plain English using Gherkin syntax.
+Key Features of Cucumber:
+1. Uses Given-When-Then format for writing test scenarios.
+2. Bridges the gap between business stakeholders and developers.
+3. Supports multiple programming languages like Java, Ruby, and JavaScript.
+4. Works with Selenium and TestNG for automation testing.
+5. Enhances collaboration and makes tests easy to understand.
+Cucumber is widely used for automated functional testing due to its readability and ease of use.

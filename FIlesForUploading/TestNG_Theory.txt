@@ -1,0 +1,8 @@
+TestNG (Test Next Generation) is a testing framework inspired by JUnit and NUnit, designed for test automation in Java.
+Features of TestNG:
+1. Annotations (@Test, @BeforeMethod, @AfterMethod, etc.) help define the test flow.
+2. Supports parallel execution of tests for efficiency.
+3. Generates detailed HTML reports of test execution.
+4. Supports grouping and prioritization of test cases.
+5. Integrates seamlessly with Selenium for automated testing.
+TestNG simplifies test case execution and provides better control over the testing process.
