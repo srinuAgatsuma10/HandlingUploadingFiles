@@ -27,7 +27,7 @@ public class HandlingUploadFile {
 	public void uploadFileApproachOne() {
 		// Approach One
 		WebElement chooseFile = driver.findElement(By.xpath("//input[@id='uploadFile']"));
-		String path = "----Enter File Path----";
+		String path = "----Enter Complete File Path----";
 		chooseFile.sendKeys(path);
 	}
 
@@ -35,7 +35,7 @@ public class HandlingUploadFile {
 	public void uploadFileApproachTwo() {
 		// Approach Two
 		WebElement chooseFile = driver.findElement(By.xpath("//input[@id='uploadFile']"));
-		chooseFile.sendKeys("----Enter File Path----");
+		chooseFile.sendKeys(System.getProperty("user.dir")+"\\FIlesForUploading\\TestNG_Theory.txt");
 	}
 
 	@AfterClass

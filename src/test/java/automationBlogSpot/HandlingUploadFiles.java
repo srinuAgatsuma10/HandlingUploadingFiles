@@ -24,12 +24,24 @@ public class HandlingUploadFiles {
 
 	@Test(priority = 1)
 	public void uploadSingleFile() {
-
+		driver.findElement(By.xpath("//input[@id='singleFileInput']"))
+				.sendKeys(System.getProperty("user.dir") + "\\FIlesForUploading\\TestNG_Theory.txt");
+		driver.findElement(By.xpath("//button[normalize-space()='Upload Single File']")).click();
+		System.out.println(driver.findElement(By.xpath("//p[@id='singleFileStatus']")).getText());
 	}
 
 	@Test(priority = 2)
 	public void uploadMultipleFiles() {
-
+		String fileOne = "----Enter Complete File Path----";
+		String fileTwo = "----Enter Complete File Path----";
+		String fileThree = "----Enter Complete File Path----";
+		String[] paths = { fileOne, fileTwo, fileThree };
+		WebElement multipleFile = driver.findElement(By.xpath("//input[@id='multipleFilesInput']"));
+		for (String i : paths) {
+			multipleFile.sendKeys(i);
+		}
+		driver.findElement(By.xpath("//form[@id='multipleFilesForm']//button")).click();
+		System.out.println(driver.findElement(By.xpath("//p[@id='multipleFilesStatus']")).getText());
 	}
 
 	@AfterClass
