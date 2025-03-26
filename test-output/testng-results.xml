@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T21:03:50 IST" name="Default suite" finished-at="2025-03-26T21:04:49 IST" duration-ms="58912">
+  <suite started-at="2025-03-26T21:33:19 IST" name="Default suite" finished-at="2025-03-26T21:34:14 IST" duration-ms="55278">
     <groups>
     </groups>
-    <test started-at="2025-03-26T21:03:50 IST" name="Default test" finished-at="2025-03-26T21:04:49 IST" duration-ms="58912">
+    <test started-at="2025-03-26T21:33:19 IST" name="Default test" finished-at="2025-03-26T21:34:14 IST" duration-ms="55278">
       <class name="demoQA.HandlingUploadFile">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:demoQA.HandlingUploadFile@5bf0d49]" started-at="2025-03-26T21:03:50 IST" name="setUp" finished-at="2025-03-26T21:04:49 IST" duration-ms="58618" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoQA.HandlingUploadFile@62379589]" started-at="2025-03-26T21:33:19 IST" name="setUp" finished-at="2025-03-26T21:34:14 IST" duration-ms="54574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="uploadSingleFile()[pri:0, instance:demoQA.HandlingUploadFile@5bf0d49]" started-at="2025-03-26T21:04:49 IST" name="uploadSingleFile" finished-at="2025-03-26T21:04:49 IST" duration-ms="50" status="PASS">
+        <test-method signature="uploadFileApproachOne()[pri:1, instance:demoQA.HandlingUploadFile@62379589]" started-at="2025-03-26T21:34:14 IST" name="uploadFileApproachOne" finished-at="2025-03-26T21:34:14 IST" duration-ms="123" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- uploadSingleFile -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoQA.HandlingUploadFile@5bf0d49]" started-at="2025-03-26T21:04:49 IST" name="tearDown" finished-at="2025-03-26T21:04:49 IST" duration-ms="211" status="PASS">
+        </test-method> <!-- uploadFileApproachOne -->
+        <test-method signature="uploadFileApproachTwo()[pri:2, instance:demoQA.HandlingUploadFile@62379589]" started-at="2025-03-26T21:34:14 IST" name="uploadFileApproachTwo" finished-at="2025-03-26T21:34:14 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFileApproachTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoQA.HandlingUploadFile@62379589]" started-at="2025-03-26T21:34:14 IST" name="tearDown" finished-at="2025-03-26T21:34:14 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
