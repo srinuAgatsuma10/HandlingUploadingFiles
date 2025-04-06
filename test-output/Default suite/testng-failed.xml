@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automationBlogSpot.HandlingUploadFiles">
+      <class name="automateNow.HandlingUploadFile">
         <methods>
-          <include name="uploadMultipleFiles"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="uploadFile"/>
         </methods>
-      </class> <!-- automationBlogSpot.HandlingUploadFiles -->
+      </class> <!-- automateNow.HandlingUploadFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
