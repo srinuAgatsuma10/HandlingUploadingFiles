@@ -2,7 +2,9 @@ package tutorialPonit;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -23,7 +25,9 @@ public class HandlingUploadFile {
 
 	@Test(priority = 1)
 	public void uploadFileApproachOne() {
-
+		WebElement destination = driver.findElement(By.xpath("//input[@id='uploadFile']"));
+		String path = "----Enter Complete File Path----";
+		destination.sendKeys(path);
 	}
 
 	@Test(priority = 2)
