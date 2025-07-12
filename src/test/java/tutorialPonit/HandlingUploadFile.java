@@ -23,7 +23,7 @@ public class HandlingUploadFile {
 		driver.manage().window().maximize();
 	}
 
-//	@Test(priority = 1)
+	@Test(priority = 1)
 	public void uploadFileApproachOne() {
 		WebElement destination = driver.findElement(By.xpath("//input[@id='uploadFile']"));
 		String path = "----Enter Complete File Path----";
@@ -33,7 +33,7 @@ public class HandlingUploadFile {
 	@Test(priority = 2)
 	public void uploadFileApproachTwo() {
 		WebElement destination = driver.findElement(By.xpath("//input[@id='uploadFile']"));
-		destination.sendKeys(System.getProperty("user.dir")+"\\FIlesForUploading\\Selenium_Theory.txt");
+		destination.sendKeys(System.getProperty("user.dir") + "\\FIlesForUploading\\Selenium_Theory.txt");
 	}
 
 	@AfterClass
